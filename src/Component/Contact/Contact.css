@@ -1,0 +1,11 @@
+.boder{
+    /* border : 2px solid red; */
+    background-color : rgb(238, 235, 235);
+    border-radius :20px;
+}
+
+.bg{
+    background-color:#EDF6FF;
+    padding : 25px;
+    
+}

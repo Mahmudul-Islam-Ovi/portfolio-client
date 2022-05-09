@@ -1,0 +1,38 @@
+.color-text{
+    color: black !important;
+    font-weight: bold !important;
+}
+.color-nab{
+    color: black !important;
+    font-size: 15px;
+}
+
+#collasible-nav-dropdown{
+    color: black !important;
+    font-size: 15px;
+}
+
+.nav-color{
+    background-color: #85bedb;
+   
+}
+
+.nav-style{
+    text-decoration: none !important;
+    
+
+}
+.text-decoration-none:hover{
+    text-decoration: none;
+    color: rgb(153, 153, 194) !important;
+}
+
+.icon{
+    margin-left: 10px;
+
+}
+
+  
+
+
+

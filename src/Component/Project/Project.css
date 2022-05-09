@@ -1,0 +1,24 @@
+.project{
+    background-color: rgb(233, 137, 137);
+    padding: 10px;
+    border: 3px solid rgb(218, 218, 221);
+    border-radius:5px;
+    
+}
+
+.mto{
+    margin-top:80px ;
+}
+.bg2{
+    background-color:#52B8FF;
+    padding : 10px;
+}
+
+.effect:hover{
+    transform: scale(1.10);
+    
+}
+.project:hover{
+    transform: scale(1.10);
+    
+}
