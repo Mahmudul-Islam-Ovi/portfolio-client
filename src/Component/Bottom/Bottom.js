@@ -29,9 +29,6 @@ const Bottom = () => {
                       <a href="https://www.instagram.com/mahmudul2120/" rel="noreferrer"  target="_blank">
                       <InstagramIcon color = "primary" className="m-2"></InstagramIcon>
                       </a>
-                         
-                         
-                        
                   </div>
             </div>
         </div>
