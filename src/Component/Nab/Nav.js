@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-     
       <Navbar collapseOnSelect expand="lg" className="nav-color fixed-top">
       <Container >
       <Navbar.Brand className="color-text" href="/">Md Mahmudul Islam</Navbar.Brand>
@@ -31,8 +30,8 @@ const NavBar = () => {
           <Nav className='color-nab ' href="#pricing">CONTACT</Nav>
           </Link>
           <NavDropdown  title="MORE" id="collasible-nav-dropdown">
-          <Link to="/Experiance" className="nav-style ">
-          <NavDropdown.Item className='color-nab' href="#action/3.1">Experiance</NavDropdown.Item>
+          <Link to="/Experience" className="nav-style ">
+          <NavDropdown.Item className='color-nab' href="#action/3.1">Experience</NavDropdown.Item>
           </Link>
           <Link to="/Blog" className="nav-style ">
           <NavDropdown.Item className='color-nab ' href="#action/3.2">Blog</NavDropdown.Item>
