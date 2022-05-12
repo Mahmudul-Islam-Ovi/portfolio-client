@@ -22,7 +22,7 @@ const ProjectDetails = ({projectdetails}) => {
           image={`data:image/jpeg;base64,${image}`}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent className="bg-secondary">
           <Typography gutterBottom variant="h5" component="div">
            {projectName}
           </Typography>
@@ -31,7 +31,7 @@ const ProjectDetails = ({projectdetails}) => {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions className="bg-secondary">
           <a href={projectLink} target="_blank"  rel="noreferrer">
           <Button size="small" color="primary">
           Show Project
