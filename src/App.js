@@ -7,6 +7,7 @@ import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Bottom from './Component/Bottom/Bottom';
 import Experience from './Component/Experiance/Experience';
+import Settings from './Component/Setting/Settings';
 
 
 
@@ -29,6 +30,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/Experience" element={<Experience />} />
+      </Routes>
+      <Routes>
+        <Route path="/Setting" element={<Settings />} />
       </Routes>
       <Bottom></Bottom>
       </Router>

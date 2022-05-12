@@ -16,7 +16,7 @@ const Contact = () => {
     const message = messageRef.current.value;
 
     const newMessage={name,email,message};
-    fetch('http://localhost:4000/users',{
+    fetch('http://localhost:4000/message',{
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(newMessage)

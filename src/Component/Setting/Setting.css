@@ -1,0 +1,9 @@
+.user{
+   margin: 10px;
+   border-radius: 5px;
+   width: 300px;
+   height: 40px;
+   background-color:rgb(231, 223, 223);
+   border: 2px solid blue;
+}
+
