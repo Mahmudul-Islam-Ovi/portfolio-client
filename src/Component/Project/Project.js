@@ -1,4 +1,5 @@
 
+import { Container, Grid } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import './Project.css'
 import ProjectDetails from './ProjectDetails';
@@ -18,7 +19,9 @@ const Project = () => {
         <div className="bg2">
         <div className='container  '>
             <h1 className="text-center mto project">Project</h1>
-        
+        <Container>
+
+            <Grid container spacing={2}>
             {
                 projects.map(projectdetails=><ProjectDetails
                    
@@ -27,10 +30,13 @@ const Project = () => {
 
                 ></ProjectDetails>)
             }
+
+            </Grid>
             
+            </Container>
             </div>
       
-        </div>
+         </div>
     );
 };
 
