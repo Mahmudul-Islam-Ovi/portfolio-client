@@ -29,6 +29,7 @@ const ProjectSetting = () => {
           .then(data => {
             if(data.insertedId){
                 setSuccess('Project Add successfully');
+                e.target.reset();
                 
             }
           })

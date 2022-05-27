@@ -46,9 +46,9 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right ">
       <form onSubmit={handleAddMessage}>
-          <input type="text" ref={nameRef} name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" ref={emailRef} name="user_email" className="user" placeholder="Email"/>
-          <textarea name="message" ref={messageRef} className="user" placeholder="Message"/>
+          <input required type="text" ref={nameRef} name="user_name" className="user"  placeholder="Name"/>
+          <input required type="email" ref={emailRef} name="user_email" className="user" placeholder="Email"/>
+          <textarea required name="message" ref={messageRef} className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="btn-primary"/>
         </form>
       </div>

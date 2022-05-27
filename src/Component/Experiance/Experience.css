@@ -1,0 +1,12 @@
+.radius{
+    border-radius: 20px;
+    background-color: rgb(32, 15, 107);
+    color: white;
+}
+.bg-color2{
+    background-color: rgb(59, 51, 94);
+}
+
+.radius:hover{
+    transform: scale(1.10); 
+}

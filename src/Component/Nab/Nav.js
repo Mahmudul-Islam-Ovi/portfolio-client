@@ -5,15 +5,15 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './Nab.css'
 import { Link } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
+import logo from '../assets/img/main logo.png'
 
 const NavBar = () => {
     return (
       <Navbar collapseOnSelect expand="lg" className="nav-color fixed-top">
       <Container >
-      <Navbar.Brand className="color-text" href="/">Md Mahmudul Islam</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <img src={logo} width="50px" alt="" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="m-auto">
@@ -42,7 +42,6 @@ const NavBar = () => {
           </NavDropdown>
         </Nav>
         <Nav >
-        {/* <FontAwesomeIcon icon={faCoffee} /> */}
           <a  href="https://www.facebook.com/profile.php?id=100010806793896" rel="noreferrer"  target="_blank" className="text-reset text-decoration-none icon" > <FacebookIcon></FacebookIcon></a>
           <a href="https://github.com/Mahmudul-Islam-Ovi" rel="noreferrer" target="_blank" className="text-reset text-decoration-none icon">  < GitHubIcon></GitHubIcon></a>
         
