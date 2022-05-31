@@ -21,7 +21,7 @@ const ProjectSetting = () => {
         formData.append('projectLink',projectLink);
         formData.append('image',image);
 
-        fetch('https://mysterious-cove-24780.herokuapp.com/project', {
+        fetch('https://portfolio-backend-servers.herokuapp.com/project', {
             method: 'POST',
             body: formData
           })
