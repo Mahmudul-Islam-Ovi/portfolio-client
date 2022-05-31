@@ -33,9 +33,9 @@ const NavBar = () => {
           <Link to="/Experience" className="nav-style ">
           <NavDropdown.Item className='color-nab' href="#action/3.1">Experience</NavDropdown.Item>
           </Link>
-          <Link to="/Blog" className="nav-style ">
+          {/* <Link to="/Blog" className="nav-style ">
           <NavDropdown.Item className='color-nab ' href="#action/3.2">Blog</NavDropdown.Item>
-          </Link>
+          </Link> */}
           <Link to="/Setting" className="nav-style ">
           <NavDropdown.Item className='color-nab ' href="#action/3.3">Setting</NavDropdown.Item>
           </Link>

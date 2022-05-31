@@ -24,7 +24,7 @@ const About = () => {
   <Row className="p-5 xs{12} mt-5">
     <Col className="text-start mt-5 p-3  xs={12}">
     <h1>Hello This Is <span className="name">Md Mahmudul Islam</span></h1>
-    <p >Hi, This is Mahmudul Islam. I'm a computer science graduate and a professional web developer with over 2 years. I am experienced in React design. I have great skills in UI design and development. If you want quality work at a good price, don't hesitate to hire me. I can work with full responsibility for you. Thank You</p>
+    <p >I am a professional Full-stack Developer for past 2 years and a student of Bachelors in  Computer Science and Engineering.I am experience in Web design and development.I am also experience in React js and Node js. </p>
     <Button onClick={(e)=>download(e)} variant="success">Download Resume</Button>
     </Col>
     <Col className="text-center xs={12} p-2 ">

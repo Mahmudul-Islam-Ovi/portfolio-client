@@ -5,7 +5,7 @@ import './Setting.css';
 const Settings = () => {
     return (
         <div className="container">
-            <h1 className='mt-5 pt-5'>Setting</h1>
+            <h1 className='mt-5 pt-5 text-center'>Setting</h1>
             <h2>Portfolio Update</h2>
         <form onSubmit={''}>
           <input type="text"name="user_name" className="user"  placeholder="Name"/>
