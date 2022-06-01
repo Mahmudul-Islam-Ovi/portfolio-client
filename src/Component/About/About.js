@@ -11,11 +11,11 @@ const About = () => {
         e.preventDefault();
 
           Axios({
-            url: 'http://localhost:4000/files',
+            url: 'https://portfolio-backend-servers.herokuapp.com/files',
             method: 'GET',
             responseType: "blob",
           }).then((res)=>{
-            FileDownload(res.data,"MD-Mahmudul-Islam-CV.docx")
+            FileDownload(res.data,"mahmudul-islam.pdf")
           })
    };
     return (
